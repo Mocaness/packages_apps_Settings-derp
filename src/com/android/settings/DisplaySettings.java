@@ -30,7 +30,6 @@ import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.MaxRefreshRatePreferenceController;
 import com.android.settings.display.MinRefreshRatePreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
-import com.android.settings.display.ShowRefreshRatePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.ThemePreferenceController;
@@ -102,7 +101,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
-        controllers.add(new ShowRefreshRatePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new MinRefreshRatePreferenceController(context, lifecycle));
